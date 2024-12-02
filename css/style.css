@@ -384,7 +384,7 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   font-family: "SnellBT Regular", sans-serif;
-  color: #ff7979;
+  color: #fd2828;
   font-weight: bold;
   margin-top: 25px;
   font-size: 20px;
@@ -454,14 +454,14 @@ a:focus {
 
 .chocolate_section .box .detail-box {
   width: 100%;
-  background-color: #46200b;
+  background-color: #ff2828;
   color: #ffffff;
   padding: 15px;
   margin-top: 10px;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: none;
+  transition: none;
 }
 
 .chocolate_section .box .detail-box h6 {
@@ -470,7 +470,7 @@ a:focus {
 }
 
 .chocolate_section .box .detail-box h6 span {
-  color: #cb4e08;
+  color: #97cb08;
 }
 
 .chocolate_section .box .detail-box h5 {
